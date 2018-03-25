@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iharnoor.anthemconnection.Achievements">
+
+
+    <ImageButton
+        android:id="@+id/survey1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:adjustViewBounds="false"
+        android:background="@null"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/survey5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/survey1" />
+
+    <ImageButton
+        android:id="@+id/survey5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/survey5" />
+
+    <ImageButton
+        android:id="@+id/survey10"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/survey5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/survey10" />
+
+    <ImageButton
+        android:id="@+id/streak3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/streak5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/survey1"
+        app:srcCompat="@drawable/streak3" />
+
+    <ImageButton
+        android:id="@+id/streak5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/survey5"
+        app:srcCompat="@drawable/streak5" />
+
+    <ImageButton
+        android:id="@+id/streak10"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/streak5"
+        app:layout_constraintTop_toBottomOf="@+id/survey10"
+        app:srcCompat="@drawable/streak10" />
+
+    <ImageButton
+        android:id="@+id/streak20"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/allemojis"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/streak3"
+        app:srcCompat="@drawable/streak20" />
+
+    <ImageButton
+        android:id="@+id/allemojis"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/streak5"
+        app:srcCompat="@drawable/allemojis" />
+
+    <ImageButton
+        android:id="@+id/friendship"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/allemojis"
+        app:layout_constraintTop_toBottomOf="@+id/streak10"
+        app:srcCompat="@drawable/friendship" />
+
+    <ImageButton
+        android:id="@+id/redeeming"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/leaderboardvisit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/streak20"
+        app:srcCompat="@drawable/redeeming" />
+
+    <ImageButton
+        android:id="@+id/leaderboardvisit"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/allemojis"
+        app:srcCompat="@drawable/leaderboardvisit" />
+
+    <ImageButton
+        android:id="@+id/leaderboardon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/leaderboardvisit"
+        app:layout_constraintTop_toBottomOf="@+id/friendship"
+        app:srcCompat="@drawable/leaderboadon" />
+</android.support.constraint.ConstraintLayout>

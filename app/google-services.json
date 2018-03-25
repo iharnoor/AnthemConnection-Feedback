@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "452462325644",
+    "firebase_url": "https://anthemconnection-127d3.firebaseio.com",
+    "project_id": "anthemconnection-127d3",
+    "storage_bucket": "anthemconnection-127d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452462325644:android:af603d2883035dff",
+        "android_client_info": {
+          "package_name": "com.iharnoor.anthemconnection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452462325644-fe9q8o9ikdjqtfmfja9cdi6htms70g70.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iharnoor.anthemconnection",
+            "certificate_hash": "3e86d9c7a5998cfcc51fa544171dd74a845350e2"
+          }
+        },
+        {
+          "client_id": "452462325644-8hm05id6l2c6p7dngd9q4l10b6h0qrib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM-OOSr3JRH4ESCRgcfqj46wXUYaceYoM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452462325644-8hm05id6l2c6p7dngd9q4l10b6h0qrib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
